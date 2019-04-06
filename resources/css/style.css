@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#top_bar {
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+#logo {
+  margin-top: 8px;
+  width: 100px;
+  float: left;
+  margin-right: 8px;
+}
+
+.sign_in {
+  border-left: 1px #CCCCCC solid;
+  float: left;
+  width: 150px;
+}
+
+.sign_in_image {
+  width: 30px;
+  margin: 8px;
+  float: left;
+}
+
+.sign_in_link {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navigation_first a {
+  border-left: 1px #CCCCCC solid;
+  color: black;
+  margin-top: 8px;
+  font-weight: bold;
+  float: left;
+  margin: 8px;
+}
+
+/*.bold {
+  font-weight: bold;
+}
+
+#banner {
+  background-color: #C10524;
+  width: 1000px;
+  height: 80px;
+}
+
+.navigation_second {
+  background-color: #AF0C27;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner_header {
+  float: right;
+  color: white;
+  border: 0.1px white solid;
+}*/
