@@ -1,10 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 #top_bar {
-  width: 1000px;
+  width: 1100px;
   height: 40px;
   margin: 0 auto;
 }
@@ -19,17 +20,35 @@ body {
 .sign_in {
   border-left: 1px #CCCCCC solid;
   float: left;
-  width: 150px;
+  /*width: 150px;*/
+  padding-right: 50px;
+  height: 40px;
 }
 
 .sign_in_image {
-  width: 30px;
-  margin: 8px;
+  width: 25px;
+  margin: 10px 10px;
   float: left;
 }
 
-.sign_in_link {
+.sign_in_text {
   color: black;
+  font-weight: bold;
+  font-size: 90%;
+  position: relative;
+  top: 12px;
+}
+
+#line {
+  float: left;
+  height: 40px;
+}
+
+#bell  {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 9px;
 }
 
 a {
@@ -39,17 +58,39 @@ a {
 #navigation_first a {
   border-left: 1px #CCCCCC solid;
   color: black;
-  margin-top: 8px;
   font-weight: bold;
   float: left;
-  margin: 8px;
+  margin: 0px;
+  font-size: 90%;
+  height: 27px;
+  padding: 13px 15px 0 15px;
+
+}
+#navigation_first span {
+  float: left;
+  padding-right: 25px;
 }
 
-/*.bold {
+#search_box {
+  padding: 8px 10px;
+  height: 24px;
+  border-left: 1px #CCCCCC solid;
+  float: left;
+}
+
+#search_box input {
+  float: left;
+  background-color: #D3D3D3;
+  border: none;
+  font-weight: bold;
+  padding: 5px 0px 5px 5px;
+  font-size: 80%;
+}
+
+.bold {
   font-weight: bold;
 }
-
-#banner {
+/*#banner {
   background-color: #C10524;
   width: 1000px;
   height: 80px;
