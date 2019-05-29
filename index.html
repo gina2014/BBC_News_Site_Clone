@@ -2,7 +2,10 @@
 <html>
   <head>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Inclusion of fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Links to reset and style sheets -->
     <link rel="stylesheet" href="resources/css/reset.css" type="text/css">
@@ -16,7 +19,7 @@
 
       <div id="top_bar">
 
-        <img src="resources/images/bbc-blocks-dark.png" alt="" id="logo">
+        <img src="resources/images/logo.png" alt="" id="logo">
 
         <div class="sign_in">
           <img class="sign_in_image" src="resources/images/sign_in.png" alt="">
@@ -29,12 +32,13 @@
         </div>
 
         <nav id="navigation_first">
-          <a href="#">News</a>
+          <!--<a href="#">News</a>-->
           <a href="#">Sport</a>
           <a href="#">Weather</a>
-          <a href="#">iPlayer</a>
+          <!--<a href="#">iPlayer</a>-->
           <a href="#">TV</a>
           <a href="#">Radio</a>
+          <a href="#">CBBC</a>
           <span><a href="#">More</a></span>
         </nav>
 
@@ -48,14 +52,22 @@
 
       <div id="banner">
         <div id="banner_content">
-          <img id="news_img" src="resources/images/news-light.png" alt="">
-          <h1 class="banner_header">Find Local News</h1>
+          <!--<img id="news_img" src="resources/images/news-light.png" alt="">-->
+          <h1>News</h1>
+          <div class="find_news_section">
+            <a href="#" class="banner_header">Find local news</a>
+            <img src="resources/images/location.png" alt="">
+            <!--<span><i class="fa fa-map-marker-alt"></i></span>-->
+          </div>
+
         </div>
       </div>
 
       <div id="navigation_main">
         <nav id="navigation_second">
-          <a href="#">Home</a>
+          <div class="home_link">
+            <a href="#">Home</a>
+          </div>
           <div class="border_nav">
             <a href="#">UK</a>
             <a href="#">World</a>
@@ -76,17 +88,231 @@
     </header>
 
     <div class="main">
-      <h2 class="page_header">Technology</h2>
 
-      <div id="breaking_news_section">
+      <div class="site-container">
 
-        <a href="https://www.bbc.com/news/technology-35350789" class="breaking_news_header">Asda bug exposed payment details
-            <p></p>
-            <img class="breaking_news_img"src="resources/images/asda.gif" alt="">
+        <h2 id="page_header">Technology</h2>
 
-        </a>
+        <div class="left_section">
+          <div id="breaking_news_section">
+            <a href="https://www.bbc.com/news/technology-35350789">
+                <h2 class="breaking_news_header">Asda bug exposed payment details</h2>
+                <div id="breaking_news_paragraph">
+                  <p>Security vulnerabilities that put customers at risk have affected Asda's website for a
+                  couple of years, a security expert has revealed.</p>
+                  <div class="timeline_main_story">
+                    <span class="timeline_time">2 hours ago</span>
+                    <a href="#">Technology</a>
+                  </div>
+                  <div class="rectangle">
 
+                  </div>
+                  <a href="https://www.bbc.com/news/technology-33409594" class="link">Surveilance firm hit in hack attack</a>
+                  <a href="https://www.bbc.com/news/technology-29279213" class="link">eBay flaw has existed for months</a>
+                </div>
+                <img class="breaking_news_img"src="resources/images/asda.gif" alt="">
+            </a>
+          </div>
+        </div>
 
+        <div class="right_section">
+          <div id="videos_section">
+
+            <h2 id="videos_section_header">Watch/Listen</h2>
+
+            <div class="video_section">
+              <a href="https://www.bbc.co.uk/programmes/p03fyd3z">
+                <div class="image_section">
+                  <img class="video_section_image"src="resources/images/uk_science_chief.png" alt="">
+                </div>
+                <div class="text_section">
+                  <h3 class="video_heading">UK science chief backs blockchain</h3>
+                  <div class="timeline_no_border">
+                    <span>1 hour ago</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="video_section">
+              <a href="https://www.bbc.com/news/av/technology-35302125/drone-register-gives-accountability-says-faa">
+                <div class="image_section">
+                  <img class="video_section_image"src="resources/images/drone.png" alt="">
+                </div>
+                <div class="text_section">
+                  <h3 class="video_heading">Drone register gives 'accountability'</h3>
+                  <div class="timeline">
+                    <span class="timeline_video_story">18 January 2016</span>
+                    <span><a href="#">Technology</a></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="video_section">
+              <a href="https://www.bbc.com/news/av/science-environment-35340734/spacex-falcon-rocket-explodes-on-landing-after-delivering-satellite-to-space">
+                <div class="image_section">
+                  <img class="video_section_image"src="resources/images/space_x.png" alt="">
+                </div>
+                <div class="text_section">
+                  <h3 class="video_heading">SpaceX rocket explodes during landing</h3>
+                  <div class="timeline">
+                    <span class="timeline_video_story">18 January 2016</span>
+                    <br>
+                    <span><a href="https://www.bbc.com/news/science_and_environment">Science & Environment</a></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="video_section">
+              <a href="https://www.bbc.com/news/av/technology-35328636/technology-explained-what-is-a-vpn-service">
+                <div class="image_section">
+                  <img class="video_section_image"src="resources/images/vpn.png" alt="">
+                </div>
+                <div class="text_section">
+                  <h3 class="video_heading">What is a VPN service?</h3>
+                  <div class="timeline">
+                    <span class="timeline_video_story">18 January 2016</span>
+                    <span><a href="#">Technology</a></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="video_section">
+              <a href="https://www.bbc.com/news/av/technology-35302533/the-smartphone-case-with-a-built-in-hand-crank">
+                <div class="image_section">
+                  <img class="video_section_image"src="resources/images/phone-charge.png" alt="">
+                </div>
+                <div class="text_section">
+                  <h3 class="video_heading">Charge your phone with a hand crank</h3>
+                  <div class="timeline">
+                    <span class="timeline_video_story">15 January 2016</span>
+                    <span><a href="#">Technology</a></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="video_section">
+              <a href="https://www.bbc.com/news/av/technology-35222276/100-drones-break-guinness-world-record-and-other-news">
+                <div class="image_section">
+                  <img class="video_section_image"src="resources/images/phone-charge.png" alt="">
+                </div>
+                <div class="text_section">
+                  <h3 class="video_heading">Drones break Guinness World Record</h3>
+                  <div class="timeline">
+                    <span class="timeline_video_story">15 January 2016</span>
+                    <span><a href="#">Technology</a></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="share_section">
+              <a href="https://www.bbc.com/news/have_your_say">Share with BBC News</a>
+              <div class="contact_sections">
+                <div class="contact_section">
+                  <img src="resources/images/phone.png" alt="">
+                  <!--<i class="fas fa-mobile-alt"></i>-->
+                  <span>Send an SMS or MMS to 61124</span>
+                </div>
+                <div class="contact_section">
+                  <i class="fas fa-envelope"></i>
+                  <span>Email us at <strong>haveyoursay@bbc.co.uk</strong></span>
+                </div>
+                <div class="contact_section">
+                  <i class="fab fa-twitter elipse"></i>
+                  <span>Follow & Have Your Say on <strong>Twitter</strong></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="secondary_news_stories">
+
+          <div class="secondary_story_large">
+            <a href="https://www.bbc.com/news/technology-35351154">
+              <div class="story_image">
+                <img src="resources/images/twitter-bot.png" alt="">
+              </div>
+              <div class="story_heading">
+                <h3><a href="https://www.bbc.com/news/technology-35351154">Twitter suffers technical fault</a></h3>
+              </div>
+              <div class="news_paragraph helmet">
+                <p>The social network Twitter goes offline for many users, with web
+                visitors being greeted by an error page.</p>
+              </div>
+              <div class="timeline">
+                <span class="timeline_video_story">1 hour ago</span>
+                <span><a href="#">Technology</a></span>
+              </div>
+              <div class="rectangle_2">
+
+              </div>
+              <span><a href="https://www.bbc.com/news/world-us-canada-34383655" class="helmet">Facebook down for second time in week</a></span>
+            </a>
+
+          </div>
+
+          <div class="secondary_story_large story_margin">
+            <a href="https://www.bbc.com/news/av/technology-35351709/drone-lands-on-moving-car-in-germany">
+              <div class="story_image">
+                <img src="resources/images/drone-car.png" alt="">
+              </div>
+              <div class="story_heading helmet">
+                <h3><a href="https://www.bbc.com/news/av/technology-35351709/drone-lands-on-moving-car-in-germany">Drone lands on moving car in Germany</a></h3>
+              </div>
+              <div class="news_paragraph helmet">
+                <p>Roboticists in Germany have taught a drone how to land itself on a car travelling
+                at 75 km/h (47mph).</p>
+              </div>
+              <div class="timeline">
+                <span class="timeline_video_story">44 minutes ago</span>
+                <span><a href="#">Technology</a></span>
+              </div>
+              <div class="rectangle_2">
+
+              </div>
+              <i class="fab fa-youtube"></i>
+              <a href="https://www.bbc.com/news/av/technology-35240062/ces-2016-bbc-reporter-breaks-world-s-safest-drone" class="helmet">
+                BBC reporter breaks 'worlds safest' drone</a>
+              <br>
+              <i class="fab fa-youtube link_padding"></i>
+              <a href="https://www.bbc.com/news/av/technology-34474809/drone-flies-over-sea-to-deliver-singapore-post-package" class="helmet">Drone flies
+                over sea to deliver package</a>
+            </a>
+          </div>
+
+          <div class="secondary_story_small">
+            <h3><a href="https://www.bbc.com/news/technology-35351158">Samsung updates sticky stylus holder</a></h3>
+            <div class="timeline">
+              <span class="timeline_video_story">1 hour ago</span>
+              <span><a href="#">Technology</a></span>
+            </div>
+          </div>
+
+          <div class="secondary_story_small">
+            <h3> <a href="">Minecraft to launch education edition</a></h3>
+            <div class="timeline">
+              <span class="timeline_video_story">4 hours ago</span>
+              <span><a href="https://www.bbc.co.uk/news/technology-35341528">Technology</a></span>
+            </div>
+          </div>
+
+          <div class="secondary_story_small">
+            <h3><a href="https://www.bbc.com/news/technology-35343093">Ask.fm reveals top teen slang</a></h3>
+            <div class="timeline">
+              <span class="timeline_video_story">3 hours ago</span>
+              <span><a href="#">Technology</a></span>
+            </div>
+          </div>
+
+        </div>
 
       </div>
 
